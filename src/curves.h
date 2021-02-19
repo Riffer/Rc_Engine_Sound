@@ -26,7 +26,7 @@ float curveShifting[][2] = {
 
 int reMap(float pts[][2], int input) {
   int rr;
-  float bb, mm;
+  float mm;
 
   for (int nn = 0; nn < 7; nn++) {
     if (input >= pts[nn][0] && input <= pts[nn + 1][0]) {

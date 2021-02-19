@@ -16,9 +16,15 @@
         - added throttle zero autocalibration
         - added simulated engine shifting points
 */
+// platformIO
+#include <Arduino.h>
 
 // All the required vehicle specific settings are done in settings.h!
 #include "settings.h" // <<------- SETTINGS
+
+// topdown declaration
+void getPulsewidth();
+void setupPcm();
 
 const float codeVersion = 1.33; // Software revision
 

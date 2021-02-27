@@ -16,11 +16,11 @@
 //#include "UralV8Idle.h" // Ural 4320 V8
 //#include "DefenderV8Idle.h" // Land Rover Defender V8
 //#include "v8.h" // Generic V8
-//#include "chevyNovaV8.h" // Chevy Nova Coupe 1975 <------- The best sounding!
+#include "chevyNovaV8.h" // Chevy Nova Coupe 1975 <------- The best sounding!
 //#include "Mustang68.h" // Ford Mustang 1968
 //#include "MgBGtV8.h" // MG B GT V8
 //#include "LaFerrari.h" // Ferrari "LaFerrari"
-#include "TrophyTruckIdle.h" // V8 Trophy Truck (select TOP_SPEED_MULTIPLIER 50 for best effect!!)
+//#include "TrophyTruckIdle.h" // V8 Trophy Truck (select TOP_SPEED_MULTIPLIER 50 for best effect!!)
 
 // Choose the horn sound
 //#include "horn.h" // The horn (not yet implemented)
